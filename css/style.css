@@ -1,0 +1,478 @@
+/* font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+
+/* base classes */
+.flex {
+    display: flex;
+}
+
+
+/* header */
+.header {
+    width: 100%;
+    background-image: url(../images/1.jpg);
+    height: 324px;
+    background-size: cover;  
+    margin: 0;
+    padding: 0;
+    position: relative; 
+
+    
+    
+}
+
+
+.hospital {
+    position: absolute;
+    top: 30px;
+    left: 139px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hospitals {
+    position: absolute;
+    top: 146px;
+    left: 139px;
+    color: white;
+    font-size: 42px;
+    font-weight: 900;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home {
+    position: absolute;
+    color: white;
+    top: 219px;
+    left: 139px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home::after {
+    content: '';
+    width: 2px;
+    height: 19px;
+    background-color: white;
+    position: absolute;
+    margin-left: 14.5px;
+}
+
+.about-us {
+    position: absolute;
+    color: white;
+    top: 219px;
+    left: 212px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+.navigation {
+    position: absolute;
+    top: 32px;
+    right: 138px;
+}
+
+.nav-li {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 50px;
+    text-transform: uppercase;
+}
+
+.nav-a {
+    color: white;
+}
+
+/* first section */
+.first-section-container {
+    width: 1088px;
+    height: 461px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+
+}
+
+.left-block {
+    width: 444px;
+    margin-top: 128px;
+    
+}
+
+.section-first-about-us {
+    text-transform: uppercase;
+    color: #5863F8;
+    margin-bottom: 1px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.news {
+    font-size: 42px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    margin-bottom: 10px;
+    
+}
+
+.first-section-text1 {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+
+}
+
+.first-section-text2 {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+
+.section-first-visit {
+    width: 184px;
+    height: 50px;
+    background: #5863F8;
+    position: relative;
+   
+}
+.visit-h3 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.firstsec-images-container {
+    display: flex;
+}
+
+.med{
+    margin-right: 16px;
+
+}
+
+.right-block {
+    margin-top: 90px;
+}
+
+.first-section {
+    margin-bottom: 180px;
+}
+
+/* second section*/
+
+.second-section-image {
+    width: 100%;
+    height: 612px;
+    background-image: url(../images/hp.jpg);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    position: relative;
+}
+
+.second-section-about {
+    text-transform: uppercase;
+    position: absolute;
+    top: 92px;
+    left: 139px;
+    color: white;
+    font-family: 'Poppins' ,sans-serif;
+    font-weight: bold;
+}
+
+.second-section-title {
+    position: absolute;
+    top: 113px;
+    left: 139px;
+    font-size: 42px;
+    font-family: 'Poppins' , sans-serif;
+    color: white;
+    width: 376px;
+    margin-bottom: 34px;
+
+}
+.for-block-container {
+    width: 1088px;
+    height: 260px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 262px;
+    
+    
+}
+
+.second-section-left-block,
+.second-section-left1-block,
+.second-section-right1-block,
+.second-section-right-block{
+    width: 260px;
+    height: 260px;
+    background-color: white;
+    position: relative;
+    top: 0;
+    left: 0;
+    
+    
+}
+.circle1{
+    width: 59px;
+    height: 58px;
+    background-color: #5863F8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 27px 0px 15px 101px;
+}
+
+
+.Ophthalmology {
+   font-size: 20px;
+   font-family: 'Poppins' ,sans-serif;
+   margin: 15px 0px 0px 47px;
+}
+
+.opt-text {
+    color: #B1B1B1;
+    font-size: 14px;
+    margin: 20px 0px 0px 19px;
+    
+}
+
+.neurological {
+    font-size: 18px;
+    font-family: 'Poppins' ,sans-serif;
+    margin: 15px 0px 0px 50px;
+}
+
+.Orthopedics {
+    font-size: 18px;
+    font-family: 'Poppins' ,sans-serif;
+    margin: 15px 0px 0px 45px;
+}
+
+.Cardiology {
+    font-size: 18px;
+    font-family: 'Poppins' ,sans-serif;
+    margin: 15px 0px 0px 36px;
+}
+
+
+
+
+/* third section */
+.third-section-container {
+    width: 100%;
+    height: 487px;
+    display: flex;
+    justify-content: space-between; 
+    
+}
+.third-section-left-block {
+    margin-top: 76px;
+}
+
+.feed{
+    text-transform: uppercase;
+    color: #5863F8;
+    font-family: 'Poppins' ,sans-serif;
+    
+}
+
+.third-section-title {
+    font-size: 42px;
+    font-family: 'Poppins' ,sans-serif;
+    width: 512px;
+    margin-top: 1px;
+    margin-bottom: 20px;
+}
+.third-section {
+    margin-left: 139px;
+    margin-bottom: 90px;
+}
+
+.third-section-left-block p {
+    margin-top: 20px;
+    font-family: 'Poppins' ,sans-serif;
+    width: 352px;
+}
+
+
+
+
+
+
+/* footer  */
+
+.footer-container {
+    width: 100%;
+    height: 395px;
+    background-color: #121212;
+    display: flex;
+   
+}
+
+.hospital2{
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-bottom: 20px;
+    
+}
+
+.footer-left-block-p {
+    color: #B1B1B1;
+    font-family: 'Poppins',sans-serif;
+    width: 260px;
+}
+.fb-twit-gogl {
+    display: flex;
+    margin-top: 20px;
+}
+
+.facebook-block,
+.twitter-block,
+.google-block {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #3B5998;
+    position: relative;
+    
+}
+.twitter-block {
+    background-color: #55ACEE;
+    margin: 0px 10.6px 0px 10.4px;
+}
+
+.google-block {
+    background-color: #DC4E41;
+}
+
+.fa-facebook-f,
+.fa-twitter,
+.fa-google-plus-g {
+    color: white;
+    font-size: 22px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.footer-left-block {
+    margin: 90px 0px 0px 139px;
+    
+}
+
+.footer-left1-block {
+    margin: 90px 0px 0px 200px;
+}
+.useful-links {
+    color: white;
+    font-size: 16px;
+    font-family: 'Poppins',sans-serif;  
+    text-transform: capitalize;
+}
+
+.footer-useful-a {
+    color: #5863F8;
+    font-family: 'Poppins',sans-serif; 
+    text-transform: capitalize; 
+}
+.footer-blog {
+    margin-top: 20px;
+}
+
+.footer-a-h3 {
+    margin-top: 10px;
+}
+.footer-right1-block  {
+    margin: 90px 106px 0px 81px;
+}
+
+.footer-right-block {
+    margin: 90px 0px 0px 106px;
+}
+.fa-envelope {
+    color: #5863F8;
+    font-size: 20px;
+    margin-top: 24px;
+}
+.mailtohtml {
+    color: #FFFFFF;
+    font-family: 'Poppins',sans-serif; 
+    margin-bottom: 20px;
+    margin-left: 14px;
+}
+
+.fa-phone-alt {
+    margin-top: 24.7px;
+    color: #5863F8;
+}
+
+.phone1 {
+    display: inline-block;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    margin-left: 17px;
+
+}
+
+.location1 {
+    color: #5863F8;
+    font-size: 20px;
+    margin-top: 20px;
+    
+}
+
+.location2 {
+    color: white;
+    margin-left: 19.9px;
+    font-family: 'Poppins',sans-serif;
+}
+
+
+.med{
+  
+  background: red;
+  position: relative;
+  animation: mymove 2s infinite;
+}
+
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 300px;}
+}
+.med1{
+  
+  background: red;
+  position: relative;
+  animation: mymove1 2s infinite;
+}
+
+@keyframes mymove1 {
+  from {top: 300px;}
+  to {top: 0px;}
+}
+
+
+
